@@ -36,7 +36,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a LW3Punk!");
+      window.alert("You successfully minted an LW3Punk!");
     } catch (err) {
       console.error(err);
     }
